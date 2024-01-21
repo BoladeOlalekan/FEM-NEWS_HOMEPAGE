@@ -246,4 +246,16 @@ footer a {
 .open-nav {
   transform: translateX(0%);
   box-shadow: 0 0 0 10000px rgba(0, 0, 0, 0.5);
+}
+
+@media only screen and (min-width: 512px) {
+  .base-grid .base-1 {
+    grid-template-columns: 2fr 2fr;
+  }
+  .base-grid .base-2 {
+    grid-template-columns: 2fr 2fr;
+  }
+  .base-grid .base-3 {
+    grid-template-columns: 2fr 2fr;
+  }
 }/*# sourceMappingURL=style.css.map */
