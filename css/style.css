@@ -1,0 +1,249 @@
+body {
+  margin: 1rem 1rem 0 1rem;
+  font-family: "Inter", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 15px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+}
+header .menu-open {
+  width: 3em;
+  height: 1.5em;
+  cursor: pointer;
+  position: relative;
+  top: 0.5rem;
+}
+header nav {
+  position: fixed;
+  right: 0;
+  top: 0;
+  background-color: white;
+  height: 100%;
+  width: 70%;
+  z-index: 999;
+  transform: translateX(100%);
+  transition: ease-out 0.5s;
+}
+header nav .menu-close {
+  cursor: pointer;
+  float: right;
+  margin: 2rem;
+}
+header nav ul {
+  list-style-type: none;
+  margin-top: 6rem;
+  margin-left: 1rem;
+  padding: 0;
+}
+header nav ul li {
+  padding: 1rem;
+}
+header nav ul li a {
+  font-weight: 700;
+  font-size: 18px;
+  color: hsl(236, 13%, 42%);
+  transition: 0.5s;
+}
+header nav ul li a:hover {
+  color: hsl(5, 85%, 63%);
+}
+
+.cont-grid .home-grid .desktop {
+  display: none;
+}
+.cont-grid .home-grid .mobile {
+  width: 100%;
+}
+.cont-grid .home-grid .future-grid {
+  margin-bottom: 3rem;
+}
+.cont-grid .home-grid .future-grid h1 {
+  font-weight: 800;
+  font-size: 3.2rem;
+  line-height: 3.5rem;
+  margin-bottom: 1rem;
+}
+.cont-grid .home-grid .future-grid p {
+  color: hsl(236, 13%, 42%);
+  line-height: 1.5rem;
+  margin-bottom: 2rem;
+}
+.cont-grid .home-grid .future-grid a {
+  background-color: hsl(5, 85%, 63%);
+  padding: 1rem 2rem;
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+  letter-spacing: 4px;
+  transition: 0.5s;
+}
+.cont-grid .home-grid .future-grid a:hover {
+  background-color: hsl(240, 100%, 5%);
+}
+.cont-grid .new-grid {
+  background-color: hsl(240, 100%, 5%);
+  padding: 1.5rem;
+  margin-bottom: 3rem;
+}
+.cont-grid .new-grid h2 {
+  color: hsl(35, 77%, 62%);
+  margin: 0;
+  font-size: 2em;
+}
+.cont-grid .new-grid .new-1 {
+  margin-top: 2rem;
+  border-bottom: 1px solid hsl(233, 8%, 79%);
+  padding-bottom: 1.5rem;
+}
+.cont-grid .new-grid .new-1 a {
+  color: white;
+  font-size: 1.2em;
+  font-weight: 800;
+  transition: 0.5s;
+}
+.cont-grid .new-grid .new-1 a:hover {
+  color: hsl(35, 77%, 62%);
+}
+.cont-grid .new-grid .new-1 p {
+  color: hsl(233, 8%, 79%);
+  line-height: 1.5rem;
+}
+.cont-grid .new-grid .new-2 {
+  margin-top: 2rem;
+  border-bottom: 1px solid hsl(233, 8%, 79%);
+  padding-bottom: 1.5rem;
+}
+.cont-grid .new-grid .new-2 a {
+  color: white;
+  font-size: 1.2em;
+  font-weight: 800;
+  transition: 0.5s;
+}
+.cont-grid .new-grid .new-2 a:hover {
+  color: hsl(35, 77%, 62%);
+}
+.cont-grid .new-grid .new-2 p {
+  color: hsl(233, 8%, 79%);
+  line-height: 1.5rem;
+}
+.cont-grid .new-grid .new-3 {
+  margin-top: 2rem;
+}
+.cont-grid .new-grid .new-3 a {
+  color: white;
+  font-size: 1.2em;
+  font-weight: 800;
+  transition: 0.5s;
+}
+.cont-grid .new-grid .new-3 a:hover {
+  color: hsl(35, 77%, 62%);
+}
+.cont-grid .new-grid .new-3 p {
+  color: hsl(233, 8%, 79%);
+  line-height: 1.5rem;
+}
+
+.base-grid img {
+  width: 100%;
+}
+.base-grid .base-1 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+.base-grid .base-1 .retro h4 {
+  font-size: 2em;
+  color: hsl(233, 8%, 79%);
+  margin: 0 auto 0.5rem auto;
+}
+.base-grid .base-1 .retro a {
+  color: black;
+  font-weight: 800;
+  font-size: 1.1em;
+  transition: 0.5s;
+}
+.base-grid .base-1 .retro a:hover {
+  color: hsl(5, 85%, 63%);
+}
+.base-grid .base-1 .retro p {
+  color: hsl(233, 8%, 79%);
+  line-height: 1rem;
+}
+.base-grid .base-2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+.base-grid .base-2 .laptop h4 {
+  font-size: 2em;
+  color: hsl(233, 8%, 79%);
+  margin: 0 auto 0.5rem auto;
+}
+.base-grid .base-2 .laptop a {
+  color: black;
+  font-weight: 800;
+  font-size: 1.1em;
+  transition: 0.5s;
+}
+.base-grid .base-2 .laptop a:hover {
+  color: hsl(5, 85%, 63%);
+}
+.base-grid .base-2 .laptop p {
+  color: hsl(233, 8%, 79%);
+  line-height: 1rem;
+}
+.base-grid .base-3 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+}
+.base-grid .base-3 .growth h4 {
+  font-size: 2em;
+  color: hsl(233, 8%, 79%);
+  margin: 0 auto 0.5rem auto;
+}
+.base-grid .base-3 .growth a {
+  color: black;
+  font-weight: 800;
+  font-size: 1.1em;
+  transition: 0.5s;
+}
+.base-grid .base-3 .growth a:hover {
+  color: hsl(5, 85%, 63%);
+}
+.base-grid .base-3 .growth p {
+  color: hsl(233, 8%, 79%);
+  line-height: 1rem;
+}
+
+footer {
+  background-color: hsl(240, 100%, 5%);
+  padding: 0.5rem;
+  margin-top: 1rem;
+}
+footer p {
+  text-align: center;
+  color: white;
+  font-weight: 700;
+}
+footer a {
+  color: hsl(35, 77%, 62%);
+}
+
+.open-nav {
+  transform: translateX(0%);
+  box-shadow: 0 0 0 10000px rgba(0, 0, 0, 0.5);
+}/*# sourceMappingURL=style.css.map */
