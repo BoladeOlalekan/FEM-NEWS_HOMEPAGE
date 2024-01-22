@@ -14,7 +14,7 @@ p {
 header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   margin-top: 2rem;
 }
 header .menu-open {
@@ -64,15 +64,16 @@ header nav ul li a:hover {
 }
 .cont-grid .home-grid .mobile {
   width: 100%;
+  margin-bottom: 1rem;
 }
 .cont-grid .home-grid .future-grid {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 .cont-grid .home-grid .future-grid h1 {
   font-weight: 800;
   font-size: 3.2rem;
   line-height: 3.5rem;
-  margin-bottom: 1rem;
+  margin: auto;
 }
 .cont-grid .home-grid .future-grid p {
   color: hsl(236, 13%, 42%);
@@ -257,5 +258,65 @@ footer a {
   }
   .base-grid .base-3 {
     grid-template-columns: 2fr 2fr;
+  }
+}
+@media only screen and (min-width: 980px) {
+  body {
+    margin: 3rem;
+  }
+  header .logo {
+    width: 5rem;
+    height: 3rem;
+  }
+  header .menu-open {
+    display: none;
+  }
+  header nav {
+    transform: translateX(0%);
+    position: unset;
+    height: auto;
+    width: auto;
+    display: block;
+    background: none;
+  }
+  header nav img {
+    display: none;
+  }
+  header nav ul {
+    display: flex;
+    margin: 0;
+    position: relative;
+    top: 0.5rem;
+  }
+  .cont-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1rem;
+  }
+  .cont-grid .home-grid .mobile {
+    display: none;
+  }
+  .cont-grid .home-grid .desktop {
+    display: block;
+    width: 100%;
+  }
+  .cont-grid .home-grid .future-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  .cont-grid .home-grid .future-grid .read-more p {
+    margin-bottom: 2rem;
+  }
+  .base-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  footer {
+    position: relative;
+    bottom: -2rem;
   }
 }/*# sourceMappingURL=style.css.map */
